@@ -1,0 +1,39 @@
+.movie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.movie__name{
+    font-size: x-large;
+    font-weight: 700;
+}
+.movie__image{
+    width: 27vw;
+    object-fit: contain;
+}
+.movie__cast{
+    font-size: larger;
+    font-weight: 650;
+}
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.movie__search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+}
+.btn{
+  background: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+.movie__search > input{
+    width: 23%;
+    margin-right: 2px;
+}
